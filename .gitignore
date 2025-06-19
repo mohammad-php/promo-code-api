@@ -1,0 +1,28 @@
+# Node & Composer dependencies
+/vendor
+/node_modules
+
+# Laravel specific
+.env
+.env.*
+.phpunit.result.cache
+/storage/*.key
+/storage/app/public
+/storage/framework/*
+/storage/logs/*
+/public/storage
+/public/docs
+/resources/docs
+
+# Redis
+dump.rdb
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Laravel Sail
+docker-compose.override.yml
+
+docker-compose.prod.yml

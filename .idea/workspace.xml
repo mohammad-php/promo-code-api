@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2d748a2-ec02-47d8-9c22-8592caf2ef05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/DTOs/AuthResponseData.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/DTOs/LoginData.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/DTOs/UserData.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Enums/TokenType.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Enums/UserRole.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Api/V1/Controllers/Auth/LoginController.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Http/Api/V1/Controllers/Controller.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Services/LoginService.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/Services/UserService.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bootstrap/app.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/composer.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/config/auth.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/config/scribe.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/seeders/RoleSeeder.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/seeders/UserSeeder.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/routes/api.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/storage/logs/laravel.log" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/vendor/laravel/sanctum/src/HasApiTokens.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="PhpStanProjectConfiguration">
+    <option name="selectedConfigurationId" value="Local" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/amphp/amp" />
+      <path value="$PROJECT_DIR$/vendor/amphp/parser" />
+      <path value="$PROJECT_DIR$/vendor/amphp/socket" />
+      <path value="$PROJECT_DIR$/vendor/amphp/dns" />
+      <path value="$PROJECT_DIR$/vendor/amphp/sync" />
+      <path value="$PROJECT_DIR$/vendor/amphp/serialization" />
+      <path value="$PROJECT_DIR$/vendor/amphp/process" />
+      <path value="$PROJECT_DIR$/vendor/amphp/byte-stream" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/amphp/cache" />
+      <path value="$PROJECT_DIR$/vendor/amphp/parallel" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/amphp/pipeline" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-package-tools" />
+      <path value="$PROJECT_DIR$/vendor/spatie/data-transfer-object" />
+      <path value="$PROJECT_DIR$/vendor/spatie/php-structure-discoverer" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-data" />
+      <path value="$PROJECT_DIR$/vendor/revolt/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/kelunik/certificate" />
+      <path value="$PROJECT_DIR$/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/vendor/mpociot/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-strict-rules" />
+      <path value="$PROJECT_DIR$/vendor/shalvah/upgrader" />
+      <path value="$PROJECT_DIR$/vendor/shalvah/clara" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/daverandom/libdns" />
+      <path value="$PROJECT_DIR$/vendor/knuckleswtf/scribe" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-mutate" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin-arch" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest" />
+      <path value="$PROJECT_DIR$/vendor/pestphp/pest-plugin" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/vendor/ta-tikoma/phpunit-architecture-test" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/brianium/paratest" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2yQ56ga1Jz7FF5qapyoiBS3uIkG" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Pest.CreatePromoCodeAuthorizationTest.php.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeDatabaseTest.php.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it creates a promo code with all fields.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it creates a promo code with generated code when code is not provided.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it creates a promo code without optional fields.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when code is not unique.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when expires_at is in the past (using expired factory state).executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when expires_at is in the past.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when max_uses is less than 1.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when max_uses_per_user is less than 1.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when the type field is invalid.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when the type field is missing.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when user_ids contain non-existent users.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when user_ids is not an array.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when value is less than 0.01.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it fails when value is not a number.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it forbids non-admin user from creating a promo code.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeTest.php::it stores promo code in DB with related users.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.CreatePromoCodeValidationTest.php.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it fails when email and password are missing.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it fails when email is invalid format.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it fails when email is not found.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it fails when password is incorrect.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it fails when password is too short.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it logs in successfully with valid credentials (admin).executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it logs in successfully with valid credentials (user).executor&quot;: &quot;Run&quot;,
+    &quot;Pest.LoginTest.php::it logs in successfully with valid credentials.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.PromoCodeValidationInvalidDataTest.php::it fails when price is less than minimum.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it fails to validate a promo code after max uses exceeded.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it fails to validate an expired promo code.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it fails to validate non-existing promo code.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it fails to validate promo code for ineligible user.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it fails when max uses per user is exceeded.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it fails when price is less than minimum.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it validates a percentage promo code and calculates correct discount.executor&quot;: &quot;Run&quot;,
+    &quot;Pest.ValidatePromoCodeTest.php::it validates a working promo code and returns discounted price.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/html/promo-api/tests/Feature/V1/PromoCode/Validate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate" />
+      <recent name="$PROJECT_DIR$/tests/Feature/V1/PromoCode" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/lang/ar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Create" />
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Pest.PromoCodeValidationInvalidDataTest.php::it fails when price is less than minimum">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PestRunConfigurationType">
+      <option name="pestRunnerSettings">
+        <PestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings configuration_file="$PROJECT_DIR$/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="PromoCodeValidationInvalidDataTest.php::it fails to validate a promo code after max uses exceeded" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails to validate a promo code after max uses exceeded" scope="Method" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails to validate a promo code after max uses exceeded" scope="Method" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="PromoCodeValidationInvalidDataTest.php::it fails to validate an expired promo code" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails to validate an expired promo code" scope="Method" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails to validate an expired promo code" scope="Method" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="PromoCodeValidationInvalidDataTest.php::it fails to validate non-existing promo code" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails to validate non-existing promo code" scope="Method" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails to validate non-existing promo code" scope="Method" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="PromoCodeValidationInvalidDataTest.php::it fails when max uses per user is exceeded" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails when max uses per user is exceeded" scope="Method" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails when max uses per user is exceeded" scope="Method" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="PromoCodeValidationInvalidDataTest.php::it fails when price is less than minimum" type="PestRunConfigurationType" temporary="true">
+      <option name="pestRunnerSettings">
+        <PestRunner file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails when price is less than minimum" scope="Method" />
+      </option>
+      <option name="runnerSettings">
+        <PhpTestRunnerSettings file="$PROJECT_DIR$/tests/Feature/V1/PromoCode/Validate/PromoCodeValidationInvalidDataTest.php" method="it fails when price is less than minimum" scope="Method" />
+      </option>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Pest.PromoCodeValidationInvalidDataTest.php::it fails when price is less than minimum" />
+        <item itemvalue="Pest.PromoCodeValidationInvalidDataTest.php::it fails to validate non-existing promo code" />
+        <item itemvalue="Pest.PromoCodeValidationInvalidDataTest.php::it fails when max uses per user is exceeded" />
+        <item itemvalue="Pest.PromoCodeValidationInvalidDataTest.php::it fails to validate a promo code after max uses exceeded" />
+        <item itemvalue="Pest.PromoCodeValidationInvalidDataTest.php::it fails to validate an expired promo code" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.25659.45" />
+        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.25659.45" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2d748a2-ec02-47d8-9c22-8592caf2ef05" name="Changes" comment="" />
+      <created>1749753782252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749753782252</updated>
+      <workItem from="1749753783525" duration="1772000" />
+      <workItem from="1749755683563" duration="70000" />
+      <workItem from="1749755817980" duration="10279000" />
+      <workItem from="1749925386813" duration="5731000" />
+      <workItem from="1749943948623" duration="7349000" />
+      <workItem from="1749995483041" duration="11000" />
+      <workItem from="1749998584315" duration="19700000" />
+      <workItem from="1750075257457" duration="10899000" />
+      <workItem from="1750188633383" duration="8718000" />
+      <workItem from="1750239545150" duration="11674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

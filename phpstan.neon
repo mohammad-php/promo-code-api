@@ -1,0 +1,10 @@
+parameters:
+    paths:
+        - app/
+
+    level: 9
+
+    ignoreErrors:
+      - identifier: missingType.generics
+
+    checkImplicitMixed: true

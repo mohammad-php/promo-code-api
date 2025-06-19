@@ -1,0 +1,115 @@
+openapi: 3.0.3
+info:
+  title: promo-api
+  description: 'Promo Code API used by multiple services (Web, Mobile, etc.) to manage and validate promotional discounts.'
+  version: 1.0.0
+servers:
+  -
+    url: 'http://promo-api.local'
+paths:
+  /api/v1/login:
+    post:
+      summary: 'Login By Email'
+      operationId: loginByEmail
+      description: ''
+      parameters: []
+      responses: {  }
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  description: 'Email <br>'
+                  example: admin@promo.com
+                  nullable: false
+                password:
+                  type: string
+                  description: "Password <br>\nMust be minimum 8 characters <br>"
+                  example: aPr@123321@a
+                  nullable: false
+              required:
+                - email
+                - password
+      security: []
+  /api/v1/promo-codes:
+    post:
+      summary: 'Create Promo Code'
+      operationId: createPromoCode
+      description: ''
+      parameters: []
+      responses: {  }
+      tags:
+        - 'Promo Codes'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                code:
+                  type: string
+                  description: "Custom promo code, If not provided, one will be generated. <br>\nMax 255 characters"
+                  example: PROMO-1
+                  nullable: false
+                type:
+                  type: string
+                  description: "Promo Code Type <br>\nMust be a valid type."
+                  example: percentage
+                  nullable: false
+                  enum:
+                    - percentage
+                    - 'value <br>'
+                value:
+                  type: decimal
+                  description: 'The discount value, (e.g., 10 for 10% or $10) <br>'
+                  example: '15'
+                  nullable: false
+                expires_at:
+                  type: date.
+                  description: 'expiration date in YYYY-MM-DD format.'
+                  example: '2025-12-31'
+                  nullable: false
+                max_uses:
+                  type: number
+                  description: 'Max number of times the promo can be used in total <br>'
+                  example: 100.0
+                  nullable: false
+                max_uses_per_user:
+                  type: number
+                  description: 'Max number of uses allowed per user <br>'
+                  example: 2.0
+                  nullable: false
+                user_ids:
+                  type: array
+                  description: "Array of user IDs as integers <br>\nMust be valid user id (filtered by entity)"
+                  example:
+                    - 1
+                    - 2
+                  items:
+                    type: integer
+              required:
+                - type
+                - value
+tags:
+  -
+    name: Authentication
+    description: ''
+  -
+    name: 'Promo Codes'
+    description: ''
+components:
+  securitySchemes:
+    default:
+      type: http
+      scheme: bearer
+      description: 'You can retrieve your token by visiting your dashboard and clicking <b>Generate API token</b>.'
+security:
+  -
+    default: []

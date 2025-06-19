@@ -1,0 +1,5 @@
+CREATE DATABASE IF NOT EXISTS promo_api;
+CREATE DATABASE IF NOT EXISTS promo_api_testing;
+
+GRANT ALL PRIVILEGES ON promo_api_testing.* TO 'promo'@'%';
+FLUSH PRIVILEGES;
