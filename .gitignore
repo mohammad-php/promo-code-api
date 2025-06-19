@@ -1,8 +1,5 @@
-# Node & Composer dependencies
 /vendor
 /node_modules
-
-# Laravel specific
 .env
 .env.*
 .phpunit.result.cache
@@ -13,16 +10,33 @@
 /public/storage
 /public/docs
 /resources/docs
-
-# Redis
 dump.rdb
-
-# Editor/OS files
 .DS_Store
 Thumbs.db
 *.log
-
-# Laravel Sail
 docker-compose.override.yml
-
 docker-compose.prod.yml
+/.phpunit.cache
+/public/build
+/public/hot
+.env.backup
+.env.production
+.phpactor.json
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/.zed
+phpstan.neon
+pint.json
+/.scribe
+/public/vendor/scribe
+composer.lock
+public/media
+storage/
+lang/vendor/filament-panels
+resources/views/scribe/*
